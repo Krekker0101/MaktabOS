@@ -8,7 +8,7 @@
 
 ## Запуск
 
-Скачать готовую Windows-версию можно на странице [последнего релиза MaktabOS](https://github.com/Krekker0101/MaktabOS/releases/latest). Запустите `MaktabOS-Setup-3.0.1.exe` и следуйте инструкциям. По умолчанию приложение устанавливается в `Program Files\MaktabOS` (путь можно изменить в мастере установки); ярлык появится в меню «Пуск», ярлык на рабочем столе можно выбрать дополнительно. Готовый установщик публикуется как отдельный файл релиза, а не хранится в Git-истории исходников.
+Скачать готовую Windows-версию: [MaktabOS-Setup-3.0.1.exe](https://github.com/Krekker0101/MaktabOS/releases/latest/download/MaktabOS-Setup-3.0.1.exe). Исходный код и описание версии находятся на [странице релиза MaktabOS](https://github.com/Krekker0101/MaktabOS/releases/latest). Запустите установщик и следуйте инструкциям. По умолчанию приложение устанавливается в `Program Files\MaktabOS` (путь можно изменить в мастере установки); ярлык появится в меню «Пуск», ярлык на рабочем столе можно выбрать дополнительно. Установщик хранится в релизе отдельно от Git-истории исходников.
 
 Для запуска из исходников установите Python 3.11–3.14 и распакуйте проект в обычную папку. В Windows запустите `scripts/run_windows.bat`. На macOS/Linux запустите `bash scripts/run_linux_macos.sh`. При ручной установке: `python -m pip install -r requirements.txt`, `python -m schoolregister`.
 
@@ -97,7 +97,7 @@ MaktabOS is a desktop **school management application**, **student information s
 
 ### Download and install on Windows
 
-Download the Windows installer from the [latest MaktabOS GitHub Release](https://github.com/Krekker0101/MaktabOS/releases/latest) (`MaktabOS-Setup-3.0.1.exe`). The installer is published as a separate release asset and is not stored in the source Git history. Its default installation folder is `Program Files\MaktabOS`; you can choose another location in the setup wizard. The installer can add Start menu and optional desktop shortcuts. Python is not required to run the installed Windows application.
+Download the Windows installer: [MaktabOS-Setup-3.0.1.exe](https://github.com/Krekker0101/MaktabOS/releases/latest/download/MaktabOS-Setup-3.0.1.exe). See the [MaktabOS GitHub Releases](https://github.com/Krekker0101/MaktabOS/releases/latest) for release notes. The installer is a separate release asset and is not stored in the source Git history. Its default installation folder is `Program Files\MaktabOS`; you can choose another location in the setup wizard. The installer can add Start menu and optional desktop shortcuts. Python is not required to run the installed Windows application.
 
 ### Run from source
 
