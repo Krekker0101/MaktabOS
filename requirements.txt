@@ -1,0 +1,5 @@
+PySide6>=6.8,<7
+openpyxl>=3.1.5,<4
+cryptography>=44,<48
+python-docx>=1.1,<2
+pywin32>=306,<313; platform_system == "Windows"

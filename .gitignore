@@ -1,0 +1,11 @@
+.venv/
+.freebuff/
+__pycache__/
+*.pyc
+build/
+dist/
+.pytest_cache/
+.DS_Store
+*.db
+*.sqlite
+*.srbak
