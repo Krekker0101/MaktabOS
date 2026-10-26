@@ -1,5 +1,5 @@
 #define MyAppName "MaktabOS"
-#define MyAppVersion "3.0.0"
+#define MyAppVersion "3.0.1"
 #define MyAppPublisher "Ашуров Абдулло"
 
 [Setup]

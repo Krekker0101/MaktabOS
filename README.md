@@ -8,11 +8,11 @@
 
 ## Запуск
 
-Чтобы собрать и установить Windows-версию, запустите `scripts/build_windows.bat` на Windows с установленными Python и Inno Setup 6. Готовый установщик `dist/MaktabOS-Setup-3.0.0.exe` по умолчанию устанавливает приложение в `Program Files\MaktabOS`; путь можно изменить в мастере установки. Установщик создаёт ярлык в меню «Пуск», а ярлык на рабочем столе можно выбрать дополнительно. Готовые бинарные файлы в исходный Git-репозиторий не включены.
+Скачать готовую Windows-версию можно на странице [последнего релиза MaktabOS](https://github.com/Krekker0101/MaktabOS/releases/latest). Запустите `MaktabOS-Setup-3.0.1.exe` и следуйте инструкциям. По умолчанию приложение устанавливается в `Program Files\MaktabOS` (путь можно изменить в мастере установки); ярлык появится в меню «Пуск», ярлык на рабочем столе можно выбрать дополнительно. Готовый установщик публикуется как отдельный файл релиза, а не хранится в Git-истории исходников.
 
 Для запуска из исходников установите Python 3.11–3.14 и распакуйте проект в обычную папку. В Windows запустите `scripts/run_windows.bat`. На macOS/Linux запустите `bash scripts/run_linux_macos.sh`. При ручной установке: `python -m pip install -r requirements.txt`, `python -m schoolregister`.
 
-Для сборки Windows-дистрибутива из исходников используйте `scripts/build_windows.bat` на Windows; требуются Inno Setup 6 и Python. Он создаст `dist/MaktabOS-Setup-3.0.0.exe`.
+Для сборки Windows-дистрибутива из исходников используйте `scripts/build_windows.bat` на Windows; требуются Inno Setup 6 и Python. Он создаст `dist/MaktabOS-Setup-3.0.1.exe`.
 
 Для macOS/Linux — `bash scripts/run_linux_macos.sh`, при наличии Qt и Python. Для ручной установки: `python -m pip install -r requirements.txt`, `python -m schoolregister`.
 
@@ -97,7 +97,7 @@ MaktabOS is a desktop **school management application**, **student information s
 
 ### Download and install on Windows
 
-Prebuilt Windows installer binaries are not included in this source repository. To create the installer, run `scripts/build_windows.bat` on Windows with Python and Inno Setup 6 installed. The generated file is `dist/MaktabOS-Setup-3.0.0.exe`. Its default installation folder is `Program Files\MaktabOS`; you can choose another location in the setup wizard. The installer can add Start menu and optional desktop shortcuts. Python is not required to run the installed Windows application.
+Download the Windows installer from the [latest MaktabOS GitHub Release](https://github.com/Krekker0101/MaktabOS/releases/latest) (`MaktabOS-Setup-3.0.1.exe`). The installer is published as a separate release asset and is not stored in the source Git history. Its default installation folder is `Program Files\MaktabOS`; you can choose another location in the setup wizard. The installer can add Start menu and optional desktop shortcuts. Python is not required to run the installed Windows application.
 
 ### Run from source
 
@@ -110,7 +110,7 @@ python -m schoolregister
 
 On Windows, `scripts/run_windows.bat` starts the application. On macOS or Linux, run `bash scripts/run_linux_macos.sh` after installing the dependencies.
 
-To build the Windows application and setup installer from source, run `scripts/build_windows.bat` on Windows. Python and Inno Setup 6 are required. The installer is written to `dist/MaktabOS-Setup-3.0.0.exe`.
+To build the Windows application and setup installer from source, run `scripts/build_windows.bat` on Windows. Python and Inno Setup 6 are required. The installer is written to `dist/MaktabOS-Setup-3.0.1.exe`.
 
 ### Student register and school management features
 

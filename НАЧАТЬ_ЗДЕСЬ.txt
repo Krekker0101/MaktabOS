@@ -1,7 +1,7 @@
 MAKTABOS 3.0 — ШКОЛЬНЫЙ РЕЕСТР (ЛОКАЛЬНО)
 Автор: Ашуров Абдулло
 
-Windows: запустите MaktabOS-Setup-3.0.0.exe и следуйте указаниям установщика.
+Windows: скачайте MaktabOS-Setup-3.0.1.exe со страницы GitHub Releases и запустите его.
 Python и интернет для установленной версии не требуются.
 Программа устанавливается в Program Files\MaktabOS.
 Для запуска из исходников используйте scripts/run_windows.bat.

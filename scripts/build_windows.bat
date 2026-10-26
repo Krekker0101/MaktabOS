@@ -18,7 +18,7 @@ if not exist "%ISCC%" (
  goto :fail
 )
 "%ISCC%" installer\MaktabOS.iss || goto :fail
-echo Installer created: dist\MaktabOS-Setup-3.0.0.exe
+echo Installer created: dist\MaktabOS-Setup-3.0.1.exe
 pause
 exit /b 0
 :fail
